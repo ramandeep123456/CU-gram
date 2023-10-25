@@ -30,7 +30,7 @@ import {
   faHeart as faHeartRegualar,
   faShareSquare,
   faBookmark as faBookmarkRegular,
-} from "@fortawesome/free-regular-svg-icons"
+} from "@fortawesome/free-solid-svg-icons"
 import {
   faHeart as faHeartSolid,
   faBookmark as faBookmarkSolid,

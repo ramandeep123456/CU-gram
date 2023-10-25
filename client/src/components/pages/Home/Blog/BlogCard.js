@@ -3,7 +3,7 @@ import {
   faArrowAltCircleUp as faArrowAltCircleUpRegular,
   faBookmark as faBookmarkRegular,
   faPaperPlane,
-} from "@fortawesome/free-regular-svg-icons"
+} from "@fortawesome/free-solid-svg-icons"
 import { faShare } from "@fortawesome/free-solid-svg-icons"
 import {
   faArrowAltCircleUp as faArrowAltCircleUpSolid,
