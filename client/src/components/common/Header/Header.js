@@ -69,7 +69,7 @@ const Header = ({ history }) => {
             >
               {/* <img src="/logo1.png" alt="logo" height="40px" /> */}
               <Typography variant="h6" id="header-name">
-                My Fellow
+                CU GRAM
               </Typography>
             </Button>
           </div>

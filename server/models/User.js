@@ -43,7 +43,7 @@ const userSchema = new mongoose.Schema(
     collegeId: {
       type: String,
       required: true,
-    },
+    },/*
     encryptedpassword: {
       type: String,
       trim: true,
@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema(
     },
     salt: {
       type: String,
-    },
+    },*/
     role: {
       type: Number,
       default: 0,
@@ -107,7 +107,7 @@ const userSchema = new mongoose.Schema(
 
   { timestamps: true }
 )
-
+/*
 userSchema.virtual("password").set(function (password) {
   this.password
   this.salt = uuid.v1()
@@ -131,6 +131,6 @@ userSchema.methods = {
       return ""
     }
   },
-}
+}*/
 
 module.exports = mongoose.model("User", userSchema)

@@ -79,7 +79,7 @@ export const Signup = () => {
           </Grid>
           <Grid item>
             <h1 id="header-name" style={{ fontSize: "40px" }}>
-              My Fellow
+              CU GRAM
             </h1>
             <Paper elevation={9} variant="elevation">
               <Box pt={5} pb={3} px={3} width="400px">

@@ -64,10 +64,10 @@ exports.signin = (req, res) => {
     }
     if (!user) {
       return res.status(400).json({
-        errorMsg: "Wrong credentials!",
+        errorMsg: "Wrong credentiadels!",
       })
     }
-    if (!user.authenticate(password)) {
+    if (user.password!=this.password) {
       return res.status(400).json({
         errorMsg: "Wrong credentials!",
       })
